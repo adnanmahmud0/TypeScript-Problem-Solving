@@ -2,15 +2,16 @@
 
 | Type | Interface |
 |------|-----------|
-| A collection of data types. | A syntactical contract. |
-| More flexible. | Less flexible compared to type. |
-| Uses the `type` keyword | Uses the `interface` keyword. |
-| Supports creating a new name for a type. | Provides a way to define entities. |
-| Has fewer capabilities. | Has more capabilities. |
-| Does not inherently support the use of an object. | Supports the use of an object. |
-| Does not support multiple merged declarations. | Supports multiple merged declarations. |
-| Two types with the same name raise an exception. | Two interfaces with the same name get merged. |
-| Does not have implementation purposes. | Used for implementation and extending in classes. |
-| Does not support implementing or extending union types. | Supports implementing and extending union types. |
-| Can create intersection types by combining multiple types. | Cannot create intersection interfaces. |
-| Can be used for types like primitives, unions, and tuples. | Cannot be used with other types of declaration. |
+| Used to group different types together. | Used to describe the shape or structure of an object. |
+| More flexible – works with many things. | Less flexible – mostly used for objects and classes. |
+| Written using `type`. | Written using `interface`. |
+| Good for giving a name to complex types (like union or tuple). | Good for defining object structures. |
+| Has fewer features than interface. | Has more features – like merging and extending. |
+| Not mainly for objects. | Best for objects. |
+| Can't be declared multiple times with the same name. | Can be declared multiple times – they will merge. |
+| If you use the same name twice, it shows an error. | Same name interfaces will combine together. |
+| Not used for class implementation. | Can be used in classes and extended. |
+| Cannot extend or implement union types. | Can extend and implement union types. |
+| Can combine multiple types (called intersection). | Can't do intersection with interfaces. |
+| Works well with primitive types (like `string`, `number`), unions, and tuples. | Not used for those kinds of types. |
+
