@@ -1,4 +1,4 @@
-## What are some differences between interfaces and types in TypeScript?
+## Q1 What are some differences between interfaces and types in TypeScript?
 
 | Type | Interface |
 |------|-----------|
