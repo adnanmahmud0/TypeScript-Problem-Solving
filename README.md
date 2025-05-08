@@ -16,6 +16,9 @@
 | Works well with primitive types (like `string`, `number`), unions, and tuples. | Not used for those kinds of types. |
 
 
+---
+
+
 ## Q2 What is type inference in TypeScript? Why is it helpful?
 
 Type inference means **TypeScript can guess the type** of a variable or value **by itself**, even if you don't write the type manually.
